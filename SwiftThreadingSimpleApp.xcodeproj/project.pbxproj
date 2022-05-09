@@ -14,6 +14,7 @@
 		5277429A2829B6FC00456709 /* SwiftThreadingSimpleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527742992829B6FC00456709 /* SwiftThreadingSimpleAppTests.swift */; };
 		527742A42829B6FC00456709 /* SwiftThreadingSimpleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527742A32829B6FC00456709 /* SwiftThreadingSimpleAppUITests.swift */; };
 		527742A62829B6FC00456709 /* SwiftThreadingSimpleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527742A52829B6FC00456709 /* SwiftThreadingSimpleAppUITestsLaunchTests.swift */; };
+		527742B32829B86500456709 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527742B22829B86500456709 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5277429F2829B6FC00456709 /* SwiftThreadingSimpleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftThreadingSimpleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		527742A32829B6FC00456709 /* SwiftThreadingSimpleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftThreadingSimpleAppUITests.swift; sourceTree = "<group>"; };
 		527742A52829B6FC00456709 /* SwiftThreadingSimpleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftThreadingSimpleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		527742B22829B86500456709 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				5277428A2829B6F800456709 /* ContentView.swift */,
 				5277428C2829B6FC00456709 /* Assets.xcassets */,
 				5277428E2829B6FC00456709 /* Preview Content */,
+				527742B22829B86500456709 /* ViewController.swift */,
 			);
 			path = SwiftThreadingSimpleApp;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527742B32829B86500456709 /* ViewController.swift in Sources */,
 				5277428B2829B6F800456709 /* ContentView.swift in Sources */,
 				527742892829B6F800456709 /* SwiftThreadingSimpleAppApp.swift in Sources */,
 			);
